@@ -1,0 +1,427 @@
+/*Css side bar*/
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main-app {
+  background: #170f23;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar-logo img {
+  margin-bottom: 32px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.sidebar-nav .nav-item img {
+  height: 20px;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+.sidebar-nav .nav-item a {
+  color: #dadada;
+  text-decoration: none;
+  padding-left: 0.5rem;
+}
+
+.sidebar-nav .nav-item a:hover {
+  color: #ee6aff;
+}
+
+.sidebar {
+  padding: 1.5rem;
+  height: calc(100% - 90px);
+  width: 240px;
+  background: #221a2d;
+}
+
+.nav-item {
+  padding: 0.75rem 0;
+}
+
+.nav-2.nav {
+  border-top: 1px solid #5e5e5e;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+/*css Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #130c1c;
+  color: #dadada;
+}
+
+.footer-left {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer img {
+  height: 16px;
+  vertical-align: middle;
+}
+
+.footer-left .footer-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 1.5rem;
+}
+
+.whishlist {
+  margin-left: 1.5rem;
+  height: 16px;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.footer-left {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  align-items: center;
+}
+
+.footer-center {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-center button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.footer_action-music img {
+  filter: invert(1);
+}
+
+.footer_action-music button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.button_play img,
+.button_pause img {
+  height: 40px;
+}
+
+.footer_action-music {
+  display: flex;
+  align-items: center;
+}
+
+.footer_action-music button:not(:nth-child(3)):hover {
+  background: #363636;
+}
+
+.footer_action-music button:nth-child(3) {
+  width: 60px;
+  height: 60px;
+}
+
+.active {
+  background: #363636 !important;
+}
+
+.footer-right img {
+  filter: invert(1);
+}
+
+.footer_mv {
+  margin-right: 1rem;
+}
+
+.footer-right button,
+.footer_mv {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/*Css vatar music*/
+.avatar-music {
+  text-align: center;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.avatar-music img {
+  border-radius: 5px;
+  height: 200px;
+}
+
+.name_album {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.brand_album {
+  font-size: 0.75rem;
+  color: #b8b8b8;
+  margin-bottom: 1rem;
+}
+
+.lyrics {
+  font-size: 0.75rem;
+  text-align: justify;
+  color: #a3a3a3;
+  height: 150px;
+  overflow: auto;
+}
+
+.wish_count {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.main_music {
+  display: flex;
+  width: calc(100% - 240px);
+  overflow: auto;
+  height: calc(100% - 90px);
+  padding: 3rem;
+}
+
+.avatar-music img {
+  max-width: 100%;
+}
+
+/*Css list Song*/
+.title1 img {
+  margin-right: 0.5rem;
+  filter: invert(1);
+  vertical-align: middle;
+  height: 16px;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.item-song {
+  color: #fff;
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #2b2b2b;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infor-song img {
+  height: 40px;
+  border-radius: 3px;
+}
+
+.list_song {
+  width: calc(100% - 300px);
+  padding-left: 2rem;
+}
+
+.infor-song {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.item-song:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: #2f2739;
+}
+.active_item-song {
+  border-radius: 5px;
+  background: #2f2739;
+}
+.avatar_song {
+  position: relative;
+  width: 50px;
+}
+.avatar_song img {
+  width: 50px;
+}
+.position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.position img {
+  height: 20px !important;
+  position: relative;
+  top: 10px;
+  filter: invert(1);
+  left: 10px;
+}
+
+.input-timeline,
+.footer-right input {
+  accent-color: #7f00a6;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.time-start,
+.time-end {
+  width: 48px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu_mobile {
+  display: none;
+}
+
+@media(max-width:768px) {
+  .main {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .sidebar {
+    
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+  }
+  .sidebar-logo img {
+    margin-bottom: 0;
+    width: 100%
+  }
+
+
+  .main_music {
+    width: 100%;
+    height: calc(100vh - 150px);
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .avatar-music {
+    width: 100%;
+  }
+  .avatar-music img {
+    margin-bottom: 1rem;
+  }
+  .lyrics {
+    height: 90px;
+  }
+
+  .list_song {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .sidebar-nav {
+    height: calc(100vh - 148px);
+    padding: 1rem;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  .footer-left {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-center {
+    width: 100%;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  .footer_mv {
+    display: none;
+  }
+
+  .menu_mobile img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+  }
+
+  .menu_mobile {
+    top: 15px;
+    display: block;
+    position: absolute;
+    left: 20px;
+  }
+
+  .showsidebar {
+    transform: translateX(0);
+    position: relative;
+    z-index: 3;
+    background: #170f23;
+    opacity: 1;
+    animation: showsidebar 0.3s ease-in forwards;
+  }
+
+  @keyframes showsidebar {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
