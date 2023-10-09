@@ -1,7 +1,7 @@
 
 import DiscoveryIcon from "../assets/discovery.svg"
 import RockRollIcon from "../assets/microphone.svg"
-import LibaryIcon from "../assets/library-music.svg"
+
 import ListAlbumIcon from "../assets/list-album.svg"
 import MenuMobileIcon from "../assets/menu-mobile.svg"
 
