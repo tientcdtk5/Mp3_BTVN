@@ -1,4 +1,4 @@
-import IconPause from "../assets/play-button-inside-a-circle.svg"
+
 import IconPlay from "../assets/iconplaying.gif"
 import { useState, useEffect } from "react"
 import { chooseSong } from "../features/player.slice"
